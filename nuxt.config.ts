@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+  runtimeConfig: {
+    mysqlConnectUrl: '', 
+  },
   future: { compatibilityVersion: 4 },
   // https://nuxt.com/modules
   modules: [
