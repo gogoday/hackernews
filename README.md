@@ -1,4 +1,4 @@
-# Nuxt Hacker News
+# AI Helper
 
 Hacker News clone built with [Nuxt](https://nuxt.com).
 
@@ -60,3 +60,15 @@ MIT
 ## Credits
 
 This repository is originally ported from [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0)
+
+## Mysql
+[node-mysql2 文档](https://sidorares.github.io/node-mysql2/docs)   
+[mysqljs 文档](https://github.com/mysqljs/mysql?tab=readme-ov-file#connection-options)
+
+## Server
+[Nitro 文档](https://nitro.unjs.io/guide)   
+[h3 文档](https://h3.unjs.io/guide/app)
+
+## Degug
+Run and Debug 面板运行：server: nuxt   
+[debug 文档](https://nuxt.com/docs/guide/going-further/debugging#debugging-with-node-inspector)
