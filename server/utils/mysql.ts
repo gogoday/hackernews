@@ -10,6 +10,7 @@ function createMysqlPool() {
     pool = mysql.createPool({
         uri: config.mysqlConnectUrl,
         timezone: '+08:00',
+        // todo
         debug: true,
         dateStrings: ['DATETIME']
     });
