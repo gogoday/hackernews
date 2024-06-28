@@ -8,7 +8,7 @@ import { feedsInfo } from '~~/utils/api'
       class="inner"
       role="navigation"
     >
-      <NuxtLink
+      <!-- <NuxtLink
         to="/"
         aria-label="Go to homepage"
       >
@@ -23,7 +23,7 @@ import { feedsInfo } from '~~/utils/api'
             fill="#00DC82"
           />
         </svg>
-      </NuxtLink>
+      </NuxtLink> -->
       <NuxtLink
         v-for="(list, key) in feedsInfo"
         :key="key"
